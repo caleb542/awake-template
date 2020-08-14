@@ -45,6 +45,7 @@ export default {
 }
 .logo-wrapper {
   position: relative;
+  background-color:purple;
   height: 50px;
   overflow: hidden;
   width: 200px;
@@ -58,7 +59,7 @@ export default {
       max-height: initial;
     }
     &.blink {
-      animation: logoBlink 0.2s steps(8, end) alternate;
+      animation: logoBlink 0.5s steps(8, end) alternate;
     }
   }
 }
